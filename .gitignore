@@ -174,8 +174,4 @@ cython_debug/
 .pypirc
 
 # vscode
-<<<<<<< HEAD
 .vscode/
-=======
-.vscode
->>>>>>> 583b603 (add folder .vscode to .gitignore.)
