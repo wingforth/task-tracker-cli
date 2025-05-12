@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@File    : task_cli.py
-@Time    : 2025/05/05 16:44:13
-@Author  : Wingforth
-@Version : 1.0
-@Software: Visual Studio Code
-@Desc    : Task tracker CLI.
+A simple CLI application used to track and manage your tasks.
     Example:
     python task_cli.py add "A new task"
     python task_cli.py update 1 "New description"
@@ -20,7 +15,6 @@
     python task_cli.py delete 1
 """
 
-# Here put the import lib
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
 from task_tracker.task_tracker import TaskTracker
