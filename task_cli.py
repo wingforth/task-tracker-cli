@@ -94,7 +94,7 @@ class TaskCLI:
     """A simple CLI for task tracker."""
 
     def __init__(self) -> None:
-        self.cache_file: Path = Path(__file__).parent.joinpath("tasks.json")
+        self.cache_file: Path = Path(__file__).resolve().parent.joinpath("tasks.json")
 
     def run(self) -> None:
         parser = ArgumentParser(
